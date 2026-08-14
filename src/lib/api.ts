@@ -1,6 +1,6 @@
 import { Expense, ExpenseSummary, NewExpense } from "@/types/expense";
 
-const API_BASE_URL = "https://localhost:8080/api/expenses";
+const API_BASE_URL = "http://127.0.0.1:8080/api/expenses";
 
 export async function getExpenses(): Promise<Expense[]> {
   const res = await fetch(API_BASE_URL, { cache: "no-store" });

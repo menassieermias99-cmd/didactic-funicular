@@ -118,7 +118,7 @@ export default function ExpenseForm({
 
       <button
         type="submit"
-        className="w-full md:w-auto bg-sky-500 hover:bg-sky-400 text-slate-500 font-semibold px-6 py-2.5 rounded-lg transition-all cursor-pointer shadow-md hover:shadow-sky-500/20"
+        className="w-full md:w-auto bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold px-6 py-2.5 rounded-lg transition-all cursor-pointer shadow-md hover:shadow-sky-500/20"
       >
         Add Record
       </button>
